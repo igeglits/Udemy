@@ -25,5 +25,10 @@ public class GuessTheNumber {
 
         // третий вариант
         System.out.println(guess == number ? "Congratulations, you guessed the number!" : "Sorry, but your number is invalid! Try again later...");
+        // или
+        String result2 = guess == number ?
+                "Congratulations, you guessed the number!" :
+                "Sorry, but your number is invalid! Try again later...";
+        System.out.println(result2);
     }
 }
