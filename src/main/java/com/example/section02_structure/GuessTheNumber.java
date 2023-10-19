@@ -22,5 +22,8 @@ public class GuessTheNumber {
             result = "Sorry, but your number is invalid! Try again later...";
         }
         System.out.println(result);
+
+        // третий вариант
+        System.out.println(guess == number ? "Congratulations, you guessed the number!" : "Sorry, but your number is invalid! Try again later...");
     }
 }
