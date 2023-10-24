@@ -1,5 +1,7 @@
 package com.example.section02_structure;
 
+import java.util.Scanner;
+
 public class Switch {
     public static void main(String[] args) {
         var a = 2;
