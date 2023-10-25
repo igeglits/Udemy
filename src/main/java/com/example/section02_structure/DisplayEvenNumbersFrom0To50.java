@@ -1,0 +1,12 @@
+package com.example.section02_structure;
+
+public class DisplayEvenNumbersFrom0To50 {
+    public static void main(String[] args) {
+        var from = 0;
+        var to = 50;
+        var step = 2;
+        for (var a = from; a <= to; a += step) {
+            System.out.println(a);
+        }
+    }
+}
