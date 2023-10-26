@@ -8,5 +8,11 @@ public class DisplayNumbersFrom100To1 {
         for (var i=from; i>=to; i-=step){
             System.out.println(i);
         }
+        {
+            int i = 100;
+            while(i>=1){
+                System.out.print(i-- + " ");
+            }
+        }
     }
 }

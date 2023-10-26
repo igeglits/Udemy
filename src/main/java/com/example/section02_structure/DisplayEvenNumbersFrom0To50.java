@@ -8,5 +8,11 @@ public class DisplayEvenNumbersFrom0To50 {
         for (var a = from; a <= to; a += step) {
             System.out.println(a);
         }
+        {
+            int i = 0;
+            while(i<=50){
+                System.out.print(i++ + " ");
+            }
+        }
     }
 }
