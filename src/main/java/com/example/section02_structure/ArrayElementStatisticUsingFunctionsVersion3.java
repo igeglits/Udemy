@@ -25,7 +25,7 @@ public class ArrayElementStatisticUsingFunctionsVersion3 {
         int count = 0;
         for (int i = 0; i < array.length; i++) {
             var element = array[i];
-            if (!isAlreadyProcessed(unique, count, element)) {
+            if (!isAlreadyProcessed(unique, count, element)) {//!инвертирует результат метода isAlreadyProcessed
                 int number = calculateElementCount(array, i, element);
                 count = addToResult(unique, counts, count, element, number);
             }
