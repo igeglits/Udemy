@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 testing line
-=======
 untesting file
->>>>>>> e133a29abae94355549e7d30582f9bff0c8cb29c
-
 ccommit test
 456
 789
