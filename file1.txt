@@ -1,4 +1,3 @@
-testing line
 untesting file
 ccommit test
 456
@@ -6,3 +5,5 @@ ccommit test
 line
 Add line echo
 new branch line
+
+новая строка для ГИТ ГУИ
