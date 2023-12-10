@@ -5,3 +5,4 @@ ccommit test
 789
 line
 Add line echo
+new branch line
