@@ -25,6 +25,7 @@ public class LinearSearch {
             }
         }
         return index;
+
     }
 
     public int recursionIndex(int[] array, int query, int index) {

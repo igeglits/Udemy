@@ -1,6 +1,7 @@
 package com.example.section02_structure;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayElement {
     public static void main(String[] args) {
@@ -14,6 +15,9 @@ public class ArrayElement {
         System.out.println(array[0]);
         System.out.println(array[1]);
 
+    }
+    public static void pri(List<Integer> integers){
+        integers.forEach(System.out::println);
     }
 }
 
